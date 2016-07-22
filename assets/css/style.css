@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family:'Arial, Verdana', sans-serif;
+}
+
+#container {
+	width: 1000px;
+	margin: 0 auto;
+}
+	
+#box{
+	background-color: #0071b5;
+	padding: 1.5em;
+}
+
+.space {
+	width: 100%;
+	height: 20px;
+}
+
+#control {
+	width: 100%;
+	border: 1px solid #0071b5;
+}
+
+#image {
+	width: 100%;
+	background-color: #3c3c3c;
+}
+
+#songimg {
+	margin: 0 auto;
+	display: block;
+}
+
+#info {
+	width: 100%;
+	height: 200px;
+	color: #0071b5;
+	display: block;
+}
+
+#name h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 1em;
+}
+
+#slider {
+	width: 100%;
+	height: 20px;
+	background-color: transparent;
+	border: 1px solid #0071b5;
+	display: block;
+}
+
+#slide {
+	width: 30%;
+	height: 20px;
+	background-color: #0071b5;
+	display: block;
+}
+
+#controlData {
+	width: 100%;
+	display: block;
+	margin-top: 2em;
+}
+
+#controlData span {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+#list {
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+}
+
+#list li {
+	border: 1px solid grey;
+	padding: 1em;
+	display: block;
+}
+
+#list li span {
+	float: right;
+}
